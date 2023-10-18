@@ -1,0 +1,44 @@
+form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 34px;
+}
+
+.labelInputCard {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+input {
+  border: 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #f4f4f4;
+  padding: 8px 6px;
+  width: 70%;
+  outline: none;
+}
+label {
+  /* margin-right: 22px; */
+  font-weight: 500;
+  align-self: right;
+}
+.loginBtn {
+  width: 45%;
+  margin-top: 20px;
+  background-color: #a9bcff;
+  align-self: center;
+  outline: none;
+}
+.signUpBtn {
+  width: 45%;
+  margin-top: 20px;
+  background-color: #a9bcff;
+  align-self: center;
+  outline: none;
+  margin-top: 0px;
+}

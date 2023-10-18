@@ -1,10 +1,10 @@
 import React from "react"
+import Main from "./pages/AdminSign/Main"
 
 const App = () => {
   return (
     <div>
-      App
-      <h1>Welcome</h1>
+      <Main />
     </div>
   )
 }
